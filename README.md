@@ -1,3 +1,3 @@
 # daviddtran-website
 
-Personal website for nightlife, Tranventures, tech, Pokémon, referrals, and marketplace links.
+Personal website for travel, tech, Pokémon, nightlife, and marketplace links.
