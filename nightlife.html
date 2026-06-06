@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nightlife | David Tran</title>
-  <meta name="description" content="Club tickets and pages for Academy LA, Exchange LA, Time Nightclub, Avalon, and Nova SD." />
+  <meta name="description" content="Guest list, VIP tables, nightlife events, and club tickets for Academy LA, Exchange LA, Time Nightclub, Avalon, Nova SD, and more." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -14,6 +14,7 @@
 
       <a href="about.html">About</a>
       <a href="tranventures.html">Tranventures</a>
+
       <div class="nav-dropdown">
         <a href="nightlife.html">Nightlife ▾</a>
         <div class="dropdown-menu">
@@ -25,63 +26,127 @@
           <a href="nova-sd.html">Nova SD</a>
         </div>
       </div>
+
       <a href="tech.html">Tech</a>
       <a href="pokemon.html">Pokémon</a>
       <a href="links.html">Links</a>
 
     </nav>
   </header>
+
   <main>
+
     <section class="page-hero">
       <p class="eyebrow">Nightlife</p>
+
       <h1>Nightlife</h1>
+
       <p class="lead">
-        Club pages and one consolidated ticket link for Academy LA, Exchange LA, Time Nightclub, Avalon, Nova SD, and other available events.
+        Guest list access, VIP tables, nightlife events, and club tickets for
+        Academy LA, Exchange LA, Time Nightclub, Avalon, Nova SD, and other
+        featured events throughout Southern California.
       </p>
+
       <div class="actions">
-        <a class="button primary" href="https://www.tixr.com/promoters/dtran" target="_blank" rel="noopener">Open Club Tickets</a>
-        <a class="button" href="links.html#contact">Contact</a>
+        <a class="button primary"
+           href="https://www.tixr.com/promoters/dtran"
+           target="_blank"
+           rel="noopener">
+           Open Club Tickets
+        </a>
+
+        <a class="button" href="#vip-contact">
+          VIP Contact
+        </a>
       </div>
+    </section>
+
+    <section id="vip-contact" class="card">
+      <h2>VIP & Nightlife Inquiries</h2>
+
+      <p>
+        Looking for guest list access, VIP tables, birthday celebrations,
+        bachelor or bachelorette parties, event partnerships, or nightlife
+        collaborations?
+      </p>
+
+      <p>
+        Contact:
+        <strong>
+          <a href="mailto:vip@daviddtran.com">
+            vip@daviddtran.com
+          </a>
+        </strong>
+      </p>
+
+      <p>
+        Responses are typically provided as quickly as possible for upcoming
+        events and reservations.
+      </p>
     </section>
 
     <section class="section">
       <p class="eyebrow">Clubs</p>
-      <h2>Venues</h2>
+
+      <h2>Featured Venues</h2>
+
       <div class="grid three">
+
         <a class="card link-card venue-card" href="academy-la.html">
-          <div class="logo-panel small"><img class="venue-img" src="assets/academy-logo.png" alt="Academy LA logo"></div>
+          <div class="logo-panel small">
+            <img class="venue-img" src="assets/academy-logo.png" alt="Academy LA logo">
+          </div>
           <h3>Academy LA</h3>
-          <p>Tickets, event notes, and recaps.</p>
+          <p>Tickets, event information, and venue details.</p>
         </a>
+
         <a class="card link-card venue-card" href="exchange-la.html">
-          <div class="logo-panel small"><img class="venue-img" src="assets/exchange-logo.png" alt="Exchange LA logo"></div>
+          <div class="logo-panel small">
+            <img class="venue-img" src="assets/exchange-logo.png" alt="Exchange LA logo">
+          </div>
           <h3>Exchange LA</h3>
-          <p>Tickets, event notes, and recaps.</p>
+          <p>Tickets, event information, and venue details.</p>
         </a>
+
         <a class="card link-card venue-card" href="time-nightclub.html">
-          <div class="logo-panel small"><img class="venue-img" src="assets/time-logo.png" alt="Time Nightclub logo"></div>
+          <div class="logo-panel small">
+            <img class="venue-img" src="assets/time-logo.png" alt="Time Nightclub logo">
+          </div>
           <h3>Time Nightclub</h3>
-          <p>Tickets, event notes, and recaps.</p>
+          <p>Tickets, event information, and venue details.</p>
         </a>
+
         <a class="card link-card venue-card" href="avalon.html">
-          <div class="logo-panel small"><img class="venue-img" src="assets/avalon-logo.png" alt="Avalon logo"></div>
+          <div class="logo-panel small">
+            <img class="venue-img" src="assets/avalon-logo.png" alt="Avalon logo">
+          </div>
           <h3>Avalon</h3>
-          <p>Tickets, event notes, and recaps.</p>
+          <p>Tickets, event information, and venue details.</p>
         </a>
+
         <a class="card link-card venue-card" href="nova-sd.html">
-          <div class="logo-panel small"><img class="venue-img" src="assets/nova-logo.png" alt="Nova SD logo"></div>
+          <div class="logo-panel small">
+            <img class="venue-img" src="assets/nova-logo.png" alt="Nova SD logo">
+          </div>
           <h3>Nova SD</h3>
-          <p>Tickets, event notes, and recaps.</p>
+          <p>Tickets, event information, and venue details.</p>
         </a>
+
       </div>
     </section>
+
   </main>
+
   <footer>
-    <p>© <span id="year"></span> David Tran. <a href="mailto:dtran.edm@gmail.com">dtran.edm@gmail.com</a> · <a href="tel:+16265026201">626.502.6201</a></p>
+    <p>
+      © <span id="year"></span> David Tran ·
+      <a href="mailto:vip@daviddtran.com">vip@daviddtran.com</a>
+    </p>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
