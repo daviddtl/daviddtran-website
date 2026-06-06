@@ -4,16 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tech | David Tran</title>
-  <meta name="description" content="Tech notes, network projects, Cloudflare, automations, and homelab writeups." />
+  <meta name="description" content="Home Assistant, Ubiquiti networking, Cloudflare, automation projects, and homelab notes." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header class="nav">
     <a class="brand" href="index.html">David Tran</a>
+
     <nav>
 
       <a href="about.html">About</a>
       <a href="tranventures.html">Tranventures</a>
+
       <div class="nav-dropdown">
         <a href="nightlife.html">Nightlife ▾</a>
         <div class="dropdown-menu">
@@ -25,34 +28,101 @@
           <a href="nova-sd.html">Nova SD</a>
         </div>
       </div>
+
       <a href="tech.html">Tech</a>
       <a href="pokemon.html">Pokémon</a>
       <a href="links.html">Links</a>
 
     </nav>
   </header>
+
   <main>
+
     <section class="page-hero">
       <p class="eyebrow">Tech</p>
-      <h1>Tech notes</h1>
+
+      <h1>Technology & Homelab</h1>
+
       <p class="lead">
-        Network notes, Cloudflare setup, automations, gear, troubleshooting, and project writeups.
+        Home Assistant automations, Ubiquiti networking, Cloudflare projects,
+        self-hosted services, smart home integrations, and lessons learned
+        along the way.
       </p>
+
+      <div class="actions">
+        <a class="button primary" href="https://daviddtran.com">
+          Home
+        </a>
+
+        <a class="button" href="mailto:hello@daviddtran.com">
+          Contact
+        </a>
+      </div>
     </section>
 
     <section class="section">
-      <div class="empty-card">
-        <h2>Coming soon</h2>
-        <p>Add rack photos, diagrams, setup notes, troubleshooting guides, or project writeups here.</p>
+      <div class="grid two">
+
+        <article class="card">
+          <h3>Home Assistant</h3>
+          <p>
+            Smart home automations, dashboards, sensors, lighting,
+            climate control, notifications, and integrations.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Ubiquiti Network</h3>
+          <p>
+            VLAN design, UniFi deployments, Protect cameras,
+            network segmentation, and infrastructure upgrades.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Cloudflare</h3>
+          <p>
+            Cloudflare Pages, DNS, Zero Trust, tunnels,
+            custom domains, and web hosting projects.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Homelab</h3>
+          <p>
+            Raspberry Pi projects, NAS storage, backups,
+            virtualization, monitoring, and self-hosted services.
+          </p>
+        </article>
+
       </div>
     </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Coming Soon</h2>
+
+        <p>
+          Detailed project write-ups, rack photos, network diagrams,
+          Home Assistant dashboards, automation examples, and setup guides
+          will be added here over time.
+        </p>
+      </div>
+    </section>
+
   </main>
+
   <footer>
-    <p>© <span id="year"></span> David Tran. <a href="mailto:dtran.edm@gmail.com">dtran.edm@gmail.com</a> · <a href="tel:+16265026201">626.502.6201</a></p>
+    <p>
+      © <span id="year"></span> David Tran ·
+      <a href="mailto:hello@daviddtran.com">hello@daviddtran.com</a>
+    </p>
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
   </script>
+
 </body>
 </html>
