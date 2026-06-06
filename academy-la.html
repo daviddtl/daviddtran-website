@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Academy LA | David Tran</title>
-  <meta name="description" content="Academy LA tickets, event notes, and photos." />
+  <meta name="description" content="Academy LA tickets, guest list, VIP tables, and event information." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -14,6 +14,7 @@
 
       <a href="about.html">About</a>
       <a href="tranventures.html">Tranventures</a>
+
       <div class="nav-dropdown">
         <a href="nightlife.html">Nightlife ▾</a>
         <div class="dropdown-menu">
@@ -25,31 +26,81 @@
           <a href="nova-sd.html">Nova SD</a>
         </div>
       </div>
+
       <a href="tech.html">Tech</a>
       <a href="pokemon.html">Pokémon</a>
       <a href="links.html">Links</a>
 
     </nav>
   </header>
+
   <main>
+
     <section class="page-hero">
-      <div class="logo-panel"><img class="venue-img" src="assets/academy-logo.png" alt="Academy LA logo"></div>
+      <div class="logo-panel">
+        <img class="venue-img" src="assets/academy-logo.png" alt="Academy LA logo">
+      </div>
+
       <p class="eyebrow">Nightlife</p>
+
       <h1>Academy LA</h1>
-      <p class="lead">Ticket links, event notes, photos, lineups, and memories from Academy LA.</p>
+
+      <p class="lead">
+        Tickets, guest list access, VIP tables, event information, and nightlife experiences at Academy LA.
+      </p>
+
       <div class="actions">
-        <a class="button primary" href="https://www.tixr.com/promoters/dtran" target="_blank" rel="noopener">Club Tickets</a>
-        <a class="button" href="nightlife.html">All Nightlife</a>
-        <a class="button" href="links.html#contact">Contact</a>
+        <a class="button primary"
+           href="https://www.tixr.com/promoters/dtran"
+           target="_blank"
+           rel="noopener">
+           Club Tickets
+        </a>
+
+        <a class="button" href="nightlife.html">
+          All Nightlife
+        </a>
+
+        <a class="button" href="#vip-contact">
+          VIP Contact
+        </a>
       </div>
     </section>
+
+    <section id="vip-contact" class="card">
+      <h2>Guest List & VIP Tables</h2>
+
+      <p>
+        Looking for guest list access, VIP table reservations, birthday celebrations,
+        bachelor or bachelorette parties, or group bookings?
+      </p>
+
+      <p>
+        Contact:
+        <strong>
+          <a href="mailto:vip@daviddtran.com">
+            vip@daviddtran.com
+          </a>
+        </strong>
+      </p>
+
+      <p>
+        For the latest events and ticket availability, use the Club Tickets link above.
+      </p>
+    </section>
+
   </main>
+
   <footer>
-    <p>© <span id="year"></span> David Tran. <a href="mailto:dtran.edm@gmail.com">dtran.edm@gmail.com</a> · <a href="tel:+16265026201">626.502.6201</a></p>
+    <p>
+      © <span id="year"></span> David Tran ·
+      <a href="mailto:vip@daviddtran.com">vip@daviddtran.com</a>
+    </p>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
