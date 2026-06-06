@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header class="nav">
     <a class="brand" href="index.html">David Tran</a>
-    <nav>
 
+    <nav>
       <a href="about.html">About</a>
       <a href="tranventures.html">Tranventures</a>
 
@@ -30,7 +31,6 @@
       <a href="tech.html">Tech</a>
       <a href="pokemon.html">Pokémon</a>
       <a href="links.html">Links</a>
-
     </nav>
   </header>
 
@@ -56,39 +56,45 @@
         </a>
 
         <a class="button" href="#vip-contact">
-          VIP Contact
+          Guest List / VIP Tables
         </a>
       </div>
     </section>
 
-    <section id="vip-contact" class="card">
-      <h2>VIP & Nightlife Inquiries</h2>
+    <section id="vip-contact" class="section">
 
-      <p>
-        Looking for guest list access, VIP tables, birthday celebrations,
-        bachelor or bachelorette parties, event partnerships, or nightlife
-        collaborations?
-      </p>
+      <p class="eyebrow">VIP Services</p>
 
-      <p>
-        Contact:
-        <strong>
-          <a href="mailto:vip@daviddtran.com">
-            vip@daviddtran.com
-          </a>
-        </strong>
-      </p>
+      <div class="card">
+        <h2>Guest List, VIP Tables & Nightlife Inquiries</h2>
 
-      <p>
-        Responses are typically provided as quickly as possible for upcoming
-        events and reservations.
-      </p>
+        <p>
+          Looking for guest list access, VIP table reservations,
+          birthday celebrations, bachelor or bachelorette parties,
+          event partnerships, or nightlife collaborations?
+        </p>
+
+        <p>
+          Contact:
+          <strong>
+            <a href="mailto:vip@daviddtran.com">
+              vip@daviddtran.com
+            </a>
+          </strong>
+        </p>
+
+        <p>
+          For the latest event availability and ticket information,
+          use the Club Tickets button above.
+        </p>
+      </div>
+
     </section>
 
     <section class="section">
-      <p class="eyebrow">Clubs</p>
+      <p class="eyebrow">Featured Venues</p>
 
-      <h2>Featured Venues</h2>
+      <h2>Clubs</h2>
 
       <div class="grid three">
 
@@ -145,7 +151,8 @@
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
   </script>
 
 </body>
